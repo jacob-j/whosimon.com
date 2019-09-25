@@ -57,8 +57,8 @@ html, body {
   top: 0;
   left: 0;
   opacity: 1;
-  -webkit-animation: fadeOut 4s 2s forwards;
-          animation: fadeOut 4s 2s forwards;
+  -webkit-animation: fadeOut 4s 3s forwards;
+          animation: fadeOut 4s 3s forwards;
 }
 
 .headline {
@@ -73,19 +73,28 @@ html, body {
   }
 }
 
-.headline > *:nth-child(1) {
-  -webkit-animation: fadeIn 4s forwards;
-          animation: fadeIn 4s forwards;
+.headline > *:nth-child(1) span:nth-child(1) {
+  opacity: 0;
+  -webkit-animation: fadeIn 4s 0s forwards;
+          animation: fadeIn 4s 0s forwards;
+}
+
+.headline > *:nth-child(1) span:nth-child(2) {
+  opacity: 0;
+  -webkit-animation: fadeIn 4s 1s forwards;
+          animation: fadeIn 4s 1s forwards;
 }
 
 .headline > *:nth-child(2) {
-  -webkit-animation: fadeIn 4s 2s forwards;
-          animation: fadeIn 4s 2s forwards;
+  opacity: 0;
+  -webkit-animation: fadeIn 4s 3s forwards;
+          animation: fadeIn 4s 3s forwards;
 }
 
 .headline > *:nth-child(3) {
-  -webkit-animation: fadeIn 4s 4s forwards;
-          animation: fadeIn 4s 4s forwards;
+  opacity: 0;
+  -webkit-animation: fadeIn 4s 5s forwards;
+          animation: fadeIn 4s 5s forwards;
 }
 
 .headline h1 {
@@ -95,7 +104,6 @@ html, body {
   letter-spacing: -0.05em;
   line-height: 1;
   text-align: center;
-  opacity: 0;
 }
 
 @media only screen and (max-width: 700px) {
@@ -106,7 +114,7 @@ html, body {
 
 .headline h1.outline {
   color: #FFF;
-  letter-spacing: 0.05em;
+  letter-spacing: 0;
   margin-bottom: 5vh;
   text-shadow: -2px -2px 0 #000000, -2px -1px 0 #000000, -2px 0px 0 #000000, -2px 1px 0 #000000, -2px 2px 0 #000000, -1px -2px 0 #000000, -1px -1px 0 #000000, -1px 0px 0 #000000, -1px 1px 0 #000000, -1px 2px 0 #000000, 0px -2px 0 #000000, 0px -1px 0 #000000, 0px 0px 0 #000000, 0px 1px 0 #000000, 0px 2px 0 #000000, 1px -2px 0 #000000, 1px -1px 0 #000000, 1px 0px 0 #000000, 1px 1px 0 #000000, 1px 2px 0 #000000, 2px -2px 0 #000000, 2px -1px 0 #000000, 2px 0px 0 #000000, 2px 1px 0 #000000, 2px 2px 0 #000000;
 }
@@ -132,8 +140,8 @@ html, body {
 
 .info {
   opacity: 0;
-  -webkit-animation: fadeIn 2s 6s forwards;
-          animation: fadeIn 2s 6s forwards;
+  -webkit-animation: fadeIn 2s 7s forwards;
+          animation: fadeIn 2s 7s forwards;
   z-index: 2;
   position: relative;
 }
