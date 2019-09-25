@@ -46,7 +46,7 @@ html, body {
 }
 
 .page {
-  padding: 4vw 20px;
+  padding: 4vw 0;
   position: relative;
 }
 
@@ -58,7 +58,7 @@ html, body {
   top: 0;
   left: 0;
   opacity: 1;
-  animation: fadeOut 4s 3s forwards;
+  animation: fadeOut 4s 2.5s forwards;
 }
 
 .headline {
@@ -67,7 +67,7 @@ html, body {
   position: relative;
 
   @media only screen and (max-width: 700px){
-    padding: 8vh 0 4vh;
+    padding: 4vh 0 8vh;
   }
 
   > *:nth-child(1){
@@ -84,7 +84,7 @@ html, body {
   }
   > *:nth-child(2){
     opacity: 0;
-    animation: fadeIn 4s 3s forwards;
+    animation: fadeIn 4s 2.5s forwards;
   }
   > *:nth-child(3){
     opacity: 0;
@@ -100,7 +100,7 @@ html, body {
     text-align: center;
 
     @media only screen and (max-width: 700px){
-      font-size: calc(32px + 4vw);
+      font-size: calc(38px + 4vw);
     }
 
     &.outline {
@@ -109,13 +109,17 @@ html, body {
       margin-bottom: 5vh;
       @include stroke(2, #000000);
 
+      span {
+        white-space: nowrap;
+      }
+
       @media only screen and (max-width: 700px){
         @include stroke(1, #000000);
       }
     }
     &:not(.outline){
       @media only screen and (max-width: 700px){
-        font-size: calc(32px + 6vw);
+        font-size: calc(36px + 6vw);
       }
     }
 
@@ -123,7 +127,7 @@ html, body {
   h2 {
     font-size: calc(18px + 1vw);
     text-align: center;
-    margin-top: 4vh;
+    margin-top: 8vh;
     opacity: 0;
   }
 }
@@ -133,6 +137,7 @@ html, body {
   animation: fadeIn 2s 7s forwards;
   z-index: 2;
   position: relative;
+  padding: 20px;
   &__content {
     width: 100%;
     max-width: 1200px;

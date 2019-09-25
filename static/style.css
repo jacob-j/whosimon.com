@@ -45,7 +45,7 @@ html, body {
 }
 
 .page {
-  padding: 4vw 20px;
+  padding: 4vw 0;
   position: relative;
 }
 
@@ -57,8 +57,8 @@ html, body {
   top: 0;
   left: 0;
   opacity: 1;
-  -webkit-animation: fadeOut 4s 3s forwards;
-          animation: fadeOut 4s 3s forwards;
+  -webkit-animation: fadeOut 4s 2.5s forwards;
+          animation: fadeOut 4s 2.5s forwards;
 }
 
 .headline {
@@ -69,7 +69,7 @@ html, body {
 
 @media only screen and (max-width: 700px) {
   .headline {
-    padding: 8vh 0 4vh;
+    padding: 4vh 0 8vh;
   }
 }
 
@@ -87,8 +87,8 @@ html, body {
 
 .headline > *:nth-child(2) {
   opacity: 0;
-  -webkit-animation: fadeIn 4s 3s forwards;
-          animation: fadeIn 4s 3s forwards;
+  -webkit-animation: fadeIn 4s 2.5s forwards;
+          animation: fadeIn 4s 2.5s forwards;
 }
 
 .headline > *:nth-child(3) {
@@ -108,7 +108,7 @@ html, body {
 
 @media only screen and (max-width: 700px) {
   .headline h1 {
-    font-size: calc(32px + 4vw);
+    font-size: calc(38px + 4vw);
   }
 }
 
@@ -119,6 +119,10 @@ html, body {
   text-shadow: -2px -2px 0 #000000, -2px -1px 0 #000000, -2px 0px 0 #000000, -2px 1px 0 #000000, -2px 2px 0 #000000, -1px -2px 0 #000000, -1px -1px 0 #000000, -1px 0px 0 #000000, -1px 1px 0 #000000, -1px 2px 0 #000000, 0px -2px 0 #000000, 0px -1px 0 #000000, 0px 0px 0 #000000, 0px 1px 0 #000000, 0px 2px 0 #000000, 1px -2px 0 #000000, 1px -1px 0 #000000, 1px 0px 0 #000000, 1px 1px 0 #000000, 1px 2px 0 #000000, 2px -2px 0 #000000, 2px -1px 0 #000000, 2px 0px 0 #000000, 2px 1px 0 #000000, 2px 2px 0 #000000;
 }
 
+.headline h1.outline span {
+  white-space: nowrap;
+}
+
 @media only screen and (max-width: 700px) {
   .headline h1.outline {
     text-shadow: -1px -1px 0 #000000, -1px 0px 0 #000000, -1px 1px 0 #000000, 0px -1px 0 #000000, 0px 0px 0 #000000, 0px 1px 0 #000000, 1px -1px 0 #000000, 1px 0px 0 #000000, 1px 1px 0 #000000;
@@ -127,14 +131,14 @@ html, body {
 
 @media only screen and (max-width: 700px) {
   .headline h1:not(.outline) {
-    font-size: calc(32px + 6vw);
+    font-size: calc(36px + 6vw);
   }
 }
 
 .headline h2 {
   font-size: calc(18px + 1vw);
   text-align: center;
-  margin-top: 4vh;
+  margin-top: 8vh;
   opacity: 0;
 }
 
@@ -144,6 +148,7 @@ html, body {
           animation: fadeIn 2s 7s forwards;
   z-index: 2;
   position: relative;
+  padding: 20px;
 }
 
 .info__content {
