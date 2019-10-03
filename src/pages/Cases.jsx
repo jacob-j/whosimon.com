@@ -14,7 +14,7 @@ function View() {
     const Case = (
       <Link to={`case/${caseData.url}`} className="Cases__case">
         <div className="Cases__case__image">
-          <img src={caseData.frontImage} alt={caseData.title} />
+          <img src={caseData.images[0]} alt={caseData.title} />
         </div>
         <div className="Cases__case__text">
           <h3>{ caseData.work.map((w,k) => `${w}${k !== caseData.work.length - 1 ? ", " : ""}`) }</h3>
