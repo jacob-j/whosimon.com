@@ -35,8 +35,8 @@ export const Data = {
   frontImage: front,
   frontLogo: frontLogo,
   topImage: frame1,
-  images: [frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10],
-  imagesMobile: [frame21mobile, frame22mobile, frame31mobile, frame32mobile, frame4mobile, frame5mobile, frame6mobile, frame7mobile, frame8mobile, frame9, frame10],
+  images: [frame3, frame2, frame4, frame5, frame6, frame7, frame8, frame9, frame10],
+  imagesMobile: [frame31mobile, frame32mobile, frame21mobile, frame22mobile, frame4mobile, frame5mobile, frame6mobile, frame7mobile, frame8mobile, frame9, frame10],
   description: <div>
     <p>
     The result of emptying my brain. OVEROVER™ is a contemporary brand creating conceptual artwork and fashion products with the goal of bringing critical thinking into peoples day-to-day life. Whether it is by a digital experience or by a physical product we want to offer you total consumption harmony. OVEROVER™ garments can be found at a few retail stores and in our webshop we offer shipping world wide.
