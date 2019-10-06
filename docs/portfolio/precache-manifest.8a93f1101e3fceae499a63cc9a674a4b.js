@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b201e619ec7f0e4e57d7778e2b225629",
+    "revision": "18c7171748a570cc97d9ba47abdb41b5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "55444dfc6b2efd9bf29c",
+    "revision": "4d5faaa304e1bc3f0c3a",
     "url": "/portfolio/static/css/main.cb5fad7e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.d5679e39.chunk.js"
   },
   {
-    "revision": "55444dfc6b2efd9bf29c",
-    "url": "/portfolio/static/js/main.bc4e5045.chunk.js"
+    "revision": "4d5faaa304e1bc3f0c3a",
+    "url": "/portfolio/static/js/main.29ab6331.chunk.js"
   },
   {
     "revision": "442817da2bab365dbd6e",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1fa931c48d442a68f9fc618f3435a63",
     "url": "/portfolio/static/media/WOW_1.b1fa931c.mp4"
+  },
+  {
+    "revision": "12ca34fc642648211236bf4e481b82a0",
+    "url": "/portfolio/static/media/frame_0.12ca34fc.png"
   },
   {
     "revision": "62b8f79d0175d7db529a1f6f1a70828a",
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08e07810fb7d4edb6285fbd66de7cb12",
     "url": "/portfolio/static/media/frame_1_mobile.08e07810.png"
+  },
+  {
+    "revision": "6ccee89e46700cd04506a0c46f75b40c",
+    "url": "/portfolio/static/media/frame_1_mobile.6ccee89e.png"
   },
   {
     "revision": "74fbec5a40c85b75bac4d355dae77ef5",
@@ -248,10 +256,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/frame_4.717f171b.png"
   },
   {
-    "revision": "7b3c759008441d3022614fd3ea983002",
-    "url": "/portfolio/static/media/frame_4.7b3c7590.png"
-  },
-  {
     "revision": "8265a400757d336bbe75782bce6e8acd",
     "url": "/portfolio/static/media/frame_4.8265a400.png"
   },
@@ -278,10 +282,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8687d75a5726f26a095dce3b60d92817",
     "url": "/portfolio/static/media/frame_4_mobile.8687d75a.png"
-  },
-  {
-    "revision": "b8d8732194f409a609160253b87b4a24",
-    "url": "/portfolio/static/media/frame_4_mobile.b8d87321.png"
   },
   {
     "revision": "e6f79eb6aa17116df6d920aa6086ff82",
