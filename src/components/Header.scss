@@ -1,0 +1,106 @@
+
+
+.MainHeader {
+  width: 100%;
+  overflow: hidden;
+
+  &__moving {
+    width: 100%;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    padding: 10px 0;
+
+    @keyframes moveBanner {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100vw);
+      }
+    }
+
+    &__wrapper {
+      width: 320vw;
+      display: flex;
+      animation: moveBanner 15s infinite linear;
+
+      img {
+        width: 80vw;
+        margin-right: 10px;
+      }
+
+      @media only screen and (max-width: 800px){
+        &__wrapper { width: 600vw; }
+        img { width: 150vw; }
+      }
+      @media only screen and (max-width: 600px){
+        &__wrapper { width: 800vw; }
+        img { width: 200vw; }
+      }
+    }
+  }
+
+  &__menu {
+    &__links {
+      width: 100%;
+      display: inline-flex;
+      border-bottom: 3px solid #000;
+
+      @media only screen and (max-width: 600px){
+        flex-wrap: wrap;
+      }
+
+      a {
+        padding: 15px 30px;
+        font-size: 32px;
+        color: #000;
+        text-decoration: none;
+        border-right: 3px solid #000;
+        position: relative;
+
+        @media only screen and (max-width: 800px){
+          width: 100%;
+          font-size: 24px;
+          text-align: center;
+          border-bottom: 3px solid #000;
+
+          &:last-of-type {
+            border-bottom: 0;
+          }
+        }
+
+        &:after {
+          width: 8px;
+          height: 8px;
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          background: #000;
+          animation: blink .25s infinite linear;
+        }
+
+        &:nth-of-type(3){
+          &:after {
+            animation-delay: .1s;
+          }
+        }
+        &:nth-of-type(4){
+          &:after {
+            animation-delay: .2s;
+          }
+        }
+        &:nth-of-type(5){
+          &:after {
+            animation-delay: .3s;
+          }
+        }
+        &:nth-of-type(6){
+          &:after {
+            animation-delay: .4s;
+          }
+        }
+      }
+    }
+  }
+}
