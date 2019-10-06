@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { BrowserRouter as Router, Switch, Route, Link, withRouter } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link, withRouter } from "react-router-dom";
 
 import Start from "./pages/Start";
 import Cases from "./pages/Cases";
