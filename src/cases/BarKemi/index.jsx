@@ -22,23 +22,21 @@ export const Data = {
   title: "BAR KEMI",
   url: "bar-kemi",
   type: "Restaurant",
-  work: ["Visual identity", "Wordpress", "Photography"],
+  work: ["Visual identity", "WP-Website", "Photography"],
   frontImage: front,
   frontLogo: frontLogo,
   background: "#ddefeb",
-  topImage: frame1,
-  topImageMobile: frame1mobile,
-  images: [frame2, frame3, frame4, frame5],
-  imagesMobile: [frame2mobile, frame3mobile, frame4mobile, frame5mobile],
+  topImage: frame5,
+  topImageMobile: frame5mobile,
+  images: [frame1, frame2, frame3, frame4, frame5],
+  imagesMobile: [frame1mobile, frame2mobile, frame3mobile, frame4mobile],
   movies: [
     { "video/webm": videowebm, "video/mp4": video },
   ],
   description: <div>
-<p>
-In years Robin has worked behind bardisks around the world. When I first met his he talked about to one day open his own restaurant. The years went by and finally 2019 the doors were opened to his absolute own restaurant in the middle of vibrant street in Visby - Hästgatan. Well done, buddy!
-<br />&nbsp;
-<br />I made the identity, a WP-website and kickstarted the social media with some pictures. It was an honor! 
-</p>
+    <p>
+    For years Robin worked behind the bar counter all around the world. When I first met him he talked passionately about one day opening his own restaurant. The years went by and finally, in 2019 the doors opened to his own restaurant in the middle of the vibrant street in Visby - Hästgatan. Well done, buddy! I made the identity, a WP-website and kickstarted the social media channels with some pictures. It was an honor!
+    </p>
   </div>,
   
 }

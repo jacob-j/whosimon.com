@@ -15,14 +15,14 @@
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-100vw);
+        transform: translateX(-200vw);
       }
     }
 
     &__wrapper {
       width: 320vw;
       display: flex;
-      animation: moveBanner 15s infinite linear;
+      animation: moveBanner 60s infinite linear;
 
       img {
         width: 80vw;
@@ -41,9 +41,30 @@
   }
 
   &__menu {
+    width: 100%;
+    background: #FFF;
+
+    &--sticky {
+      position: fixed;
+      top: 0;
+      z-index: 99;
+    }
+    &--sticky &__links a {
+      font-size: 20px;
+      padding: 10px 0;
+      background: #000;
+      color: #FFF;
+      &:after {
+        background: #FFF;
+      }
+      @media only screen and (max-width: 600px){
+        display: none;
+      }
+    }
+
     &__links {
       width: 100%;
-      display: inline-flex;
+      display: flex;
       border-bottom: 3px solid #000;
 
       @media only screen and (max-width: 600px){
@@ -51,20 +72,34 @@
       }
 
       a {
+        width: 100%;
         padding: 15px 30px;
         font-size: 32px;
         color: #000;
         text-decoration: none;
         border-right: 3px solid #000;
         position: relative;
+        text-align: center;
+        white-space: nowrap;
+
+        &:hover {
+          color: #FFF;
+          background: #000;
+
+          &:after {
+            background: #FFF;
+          }
+        }
 
         @media only screen and (max-width: 800px){
           width: 100%;
           font-size: 24px;
           text-align: center;
           border-bottom: 3px solid #000;
+          
 
           &:last-of-type {
+            width: 100%;
             border-bottom: 0;
           }
         }

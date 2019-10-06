@@ -11,6 +11,7 @@
 
   import "./style.scss";
 
+  import Header from "../components/Header";
 
   export const Cases = [Schnaza, BarKemi, Overover, Tektor, Kallunge, Boco, WhosimonSans, BeeBee];
 
@@ -21,6 +22,7 @@
 
     return (
       <div className="CaseView">
+        <Header sticky={true} />
         <div className="CaseView__top">
           <img src={Case.topImage} />
         </div>

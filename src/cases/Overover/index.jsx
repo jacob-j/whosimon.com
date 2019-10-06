@@ -34,14 +34,12 @@ export const Data = {
   background: "#c7b8c8",
   frontImage: front,
   frontLogo: frontLogo,
-  topImage: frame0,
-  images: [frame1, frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10],
-  imagesMobile: [frame1mobile, frame21mobile, frame22mobile, frame31mobile, frame32mobile, frame4mobile, frame5mobile, frame6mobile, frame7mobile, frame8mobile, frame9, frame10],
+  topImage: frame1,
+  images: [frame2, frame3, frame4, frame5, frame6, frame7, frame8, frame9, frame10],
+  imagesMobile: [frame21mobile, frame22mobile, frame31mobile, frame32mobile, frame4mobile, frame5mobile, frame6mobile, frame7mobile, frame8mobile, frame9, frame10],
   description: <div>
     <p>
-    The result of emptying my brain.
-    <br />&nbsp;
-    <br />OVEROVER™ is a contemporary brand creating conceptual artworks and fashion products. With inspiration from everyday critical thinking about life, our core value is to offer affection that embrace the whole brand, whether it is digital experience or a physical product. OVEROVER™ garments can be find in a few retail stores and in our webshop we offer world wide shipment.
+    The result of emptying my brain. OVEROVER™ is a contemporary brand creating conceptual artwork and fashion products with the goal of bringing critical thinking into peoples day-to-day life. Whether it is by a digital experience or by a physical product we want to offer you total consumption harmony. OVEROVER™ garments can be found at a few retail stores and in our webshop we offer shipping world wide.
     </p>
   </div>,
 }

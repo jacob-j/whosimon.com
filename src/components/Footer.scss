@@ -1,15 +1,16 @@
 .Footer {
   width: 100%;
-  max-width: 800px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
+  margin: 10vh auto 0 auto;
+  text-align: center;
   
   &__contact {
-    width: 100%;
-    display: flex;
+    display: inline-flex;
+    padding: 10px 25px;
+    font-size: 20px;
+    justify-content: center;
+    border: 3px solid #000;
+    margin: auto;
 
     @media only screen and (max-width: 600px){
       flex-direction: column;
@@ -21,6 +22,8 @@
       padding: 34px 20px 30px 20px;
       font-size: 20px;
       border: 3px solid #000;
+      border-left: 0;
+      border-right: 0;
       border-bottom: 0;
       text-decoration: none;
       color: #000;

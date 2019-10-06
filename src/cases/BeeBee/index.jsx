@@ -19,7 +19,7 @@ import moviewebm from "./moviewebm.mp4";
 // import frame4_mobile from "./frame_4_mobile.png";
 
 export const Data = {
-  title: "Bee & Bee",
+  title: "BEE’n’BEE",
   url: "bee-bee",
   type: "Product",
   work: ["Conceptual thinking", "Product design", "Identity"],

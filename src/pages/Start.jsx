@@ -4,14 +4,15 @@ import "./style.scss";
 import Header from "../components/Header";
 // import Footer from "../components/Footer";
 
-import whosimon from "./assets/WHOSIMON_4.gif";
+import simon from "./assets/simon_profile.png";
 
 function Start() {
   return (
     <div>
       <Header />
-      <div className="StartPage__image">
-        <img src={whosimon} />
+      <div class="StartView">
+        <img src={simon} />
+        <h1>Art director, Graphic Designer, Wordpress</h1>
       </div>
     </div>
   )

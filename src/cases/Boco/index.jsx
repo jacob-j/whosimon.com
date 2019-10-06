@@ -26,7 +26,7 @@ export const Data = {
   imagesMobile: [frame2_mobile, frame3_mobile, frame4_mobile],
   description: <div>
     <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+      Bo’s chocolate has been active for three generations with their secret chocolate recipes. When Bo’s grandson later took over the company the brand was in need of a new name and identity to meet a new target group - young international people. I changed the name from ”Bosses Choklad” to ”BO&CO chocolate” and gave the identity playful colors to talk about the secret recipe and the flavors.
     </p>
   </div>,
 }

@@ -1,13 +1,3 @@
-.StartPage__image {
-  width: 100%;
-  display: flex;
-  padding: 2vh 25px;
-  justify-content: center;
-  img {
-    width: 100%;
-    max-width: 800px;
-  }
-}
 
 .Cases {
   width: 100%;
@@ -19,6 +9,11 @@
     text-decoration: none;
     color: #000;
 
+    &:hover {
+      background: #000;
+      color: #FFF;
+    }
+
     &:first-of-type {
       margin-top: 0;
     }
@@ -26,9 +21,11 @@
     &__image {
       width: 100%;
       display: flex;
+      align-items: flex-start;
 
       img {
         width: 100%;
+        height: auto;
       }
     }
     &__text {
@@ -67,9 +64,9 @@
   }
   &__list {
     width: 100%;
-    max-width: 900px;
     display: flex;
     margin: auto;
+    align-items: flex-start;
 
     &--only-mobile {
       display: none;
@@ -104,12 +101,62 @@
 .AboutView {
   padding: 25px 40px;
 
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  &__hover {
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      display: none;
+    }
+
+    &:hover, &:active, &:focus {
+      img {
+        display: block;
+      }
+    }
+  }
+
   @media only screen and (max-width: 600px){
     padding: 25px;
   }
 
   p {
-    font-size: 24px;
+    font-size: 2.4vw;
     line-height: 1.4;
+
+    @media only screen and (max-width: 900px){
+      font-size: 20px;
+    }
+  }
+}
+
+
+.StartView {
+  width: 100%;
+  height: auto;
+  padding: 15vh 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  h1 {
+    
   }
 }

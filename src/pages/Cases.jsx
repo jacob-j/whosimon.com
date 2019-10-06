@@ -5,6 +5,7 @@ import "./style.scss";
 import { Cases } from "../cases/";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function View() {
   const casesRows = {
@@ -16,7 +17,7 @@ function View() {
     const Case = (
       <Link to={`case/${caseData.url}`} className="Cases__case">
         <div className="Cases__case__image">
-          <img src={caseData.images[0]} alt={caseData.title} />
+          <img src={caseData.topImage} alt={caseData.title} />
         </div>
         <div className="Cases__case__text">
           <h3>{ caseData.work.map((w,k) => `${w}${k !== caseData.work.length - 1 ? ", " : ""}`) }</h3>
@@ -47,6 +48,7 @@ function View() {
         </div>
       </div>
     </div>
+    <Footer />
   </>
 }
 

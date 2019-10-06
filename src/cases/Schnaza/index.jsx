@@ -21,15 +21,15 @@ export const Data = {
   title: "SCHNAZA BANANZA",
   url: "schnaza-bananza",
   type: "Club concept",
-  work: ["Concept", "Graphic profile", "Photography", "Communication", "DJ"],
+  work: ["Concept", "Graphic profile", "Communication", "DJ"],
   frontImage: front,
   frontLogo: frontLogo,
   topImage: frame1,
   images: [frame2, frame3, frame4, frame5, frame6],
   imagesMobile: [frame2mobile, frame3mobile, frame4mobile, frame5mobile, frame6mobile],
   description: <div>
-    <p>I made a club concept with the purpose to totally turn inside out on the clubs standard. Around this I created a communication concept - ”If you are not on the list, you got free entrance” and made not important person-cards with the message that the card is totally pointless.
-    <br />&nbsp;
-    <br />Aaaaaaaaand the result: The place was full every night!</p>
+    <p>
+    I made a club concept with the purpose to totally turn the standard club scene upside down. I also created a communication concept - ”Free entrance if you’re not on the list” and Not Important Person cards which were (of course) totally pointless. Aaaaaaaaand the result: The place was crowded every night!
+    </p>
   </div>
 }

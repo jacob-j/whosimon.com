@@ -26,9 +26,7 @@ export const Data = {
   imagesMobile: [frame2_mobile, frame3_mobile, frame4_mobile],
   description: <div>
     <p>
-      KÄLLUNGE TEGELBRUK™ is a company from Gotland that designs and build brick constellations. They see them selfs as artist in their genre. 
-      <br />&nbsp;
-      <br />Their dilemma was that they easily get associated with regular bricksbusiness. So I changed their name and made them a brand new brand to make a completely different perception.  The idea was to go more the architecture-way than the construction. My solution was to ditch wall shovels and bring forth the bricks and sketches!
+    KÄLLUNGE TEGELBRUK™ is a company from Gotland that designs and builds brick constellations. They see themselves as artists in their genre. Their dilemma was that they easily got associated with regular brick businessness. So I changed their name and made them a brand new brand to make them stand out. The idea was to go more toward the architecture-way than the construction so my solution was to ditch wall shovels and bring forth the sketches!
     </p>
   </div>,
 }

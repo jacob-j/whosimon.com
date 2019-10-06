@@ -27,9 +27,7 @@ export const Data = {
   imagesMobile: [frame2mobile, frame3mobile, frame4mobile],
   description: <div>
     <p>
-    Since the first 14 plants thrived in 2006 Joakim Widell has been learning everything about cigar production. With organic growth Tektor Cigars today got over 500 plants and aim to roll 15 000 cigars in 2019. By hand! That’s impressive.
-<br />&nbsp;
-<br />Tidigt 2019 uppdaterade jag Tektor Cigars identitet med en ny design och en ny hemsida. Tanken var att Tektors mörka förflutna skulle vila med mystik i bakgrunden medan cigarrerna  exklusivt lyfts fram  inlindade i växter. 
+      Since the first 14 plants thrived in 2006 Joakim Widell has been learning everything about cigar production. With organic growth Tektor Cigars today got over 500 plants and aim to roll 15 000 cigars in 2019. By hand! That’s impressive. In early 2019 I updated Tektor Cigars visual identity with a brand new design and a WP-website. The idea was to let Tektors dark history lie in the background, whilst showing off the cigars in their most exclusive form - surrounded by Gotlandic greenery.
     </p>
   </div>,
 }
