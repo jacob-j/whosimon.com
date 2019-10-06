@@ -4,6 +4,8 @@ import "./style.scss";
 
 import { Cases } from "../cases/";
 
+import Header from "../components/Header";
+
 function View() {
   const casesRows = {
     left: [],
@@ -30,7 +32,8 @@ function View() {
       casesRows.right.push(Case);
     }
   })
-  return (
+  return <>
+    <Header />
     <div className="Cases">
       <div className="Cases__list Cases__list--only-mobile">
         { casesRows.all }
@@ -44,7 +47,7 @@ function View() {
         </div>
       </div>
     </div>
-  )
+  </>
 }
 
 export default View;
