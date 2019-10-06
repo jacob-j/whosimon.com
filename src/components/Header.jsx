@@ -35,9 +35,9 @@ function Header(props) {
   })
 
   const links = <div className="MainHeader__menu__links">
-    <Link to="/">HOME</Link>
-    <Link to="/about">ABOUT</Link>
-    <Link to="/work" className="blink">WORK</Link>
+    <Link to="/portfolio/">HOME</Link>
+    <Link to="/portfolio/about">ABOUT</Link>
+    <Link to="/portfolio/work" className="blink">WORK</Link>
     <a href="mailto:hello@whosimon.com">hello@whosimon.com</a>
     <a href="tel:+46707877849">+4670 78 77 849</a>
   </div>
