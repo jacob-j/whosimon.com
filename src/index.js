@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import createBrowserHistory from 'history/createBrowserHistory';
+
+var history = createBrowserHistory();
+history.listen(function (location) {
+  window.ga('set', 'page', location.pathname + location.search);
+  window.ga('send', 'pageview');
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
