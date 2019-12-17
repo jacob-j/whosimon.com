@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import createBrowserHistory from 'history/createBrowserHistory';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import createBrowserHistory from "history/createBrowserHistory";
 
 var history = createBrowserHistory();
-history.listen(function (location) {
-  window.ga('set', 'page', location.pathname + location.search);
-  window.ga('send', 'pageview');
+history.listen(function(location) {
+	if (window.ga) {
+		window.ga("set", "page", location.pathname + location.search);
+		window.ga("send", "pageview");
+	}
 });
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
